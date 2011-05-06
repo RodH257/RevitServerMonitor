@@ -42,8 +42,8 @@
             this.lblCommunicating.AutoSize = true;
             this.lblCommunicating.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCommunicating.ForeColor = System.Drawing.Color.Green;
-            this.lblCommunicating.Location = new System.Drawing.Point(45, 96);
-            this.lblCommunicating.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblCommunicating.Location = new System.Drawing.Point(75, 106);
+            this.lblCommunicating.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.lblCommunicating.Name = "lblCommunicating";
             this.lblCommunicating.Size = new System.Drawing.Size(626, 37);
             this.lblCommunicating.TabIndex = 0;
@@ -54,8 +54,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(160, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(179, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(396, 36);
             this.label1.TabIndex = 1;
@@ -63,9 +63,11 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(548, 197);
+            this.btnExit.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(555, 218);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(156, 34);
+            this.btnExit.Size = new System.Drawing.Size(209, 41);
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -73,9 +75,11 @@
             // 
             // btnMinimize
             // 
-            this.btnMinimize.Location = new System.Drawing.Point(12, 197);
+            this.btnMinimize.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMinimize.Location = new System.Drawing.Point(13, 218);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(156, 34);
+            this.btnMinimize.Size = new System.Drawing.Size(209, 43);
             this.btnMinimize.TabIndex = 3;
             this.btnMinimize.Text = "Minmize to Tray";
             this.btnMinimize.UseVisualStyleBackColor = true;
@@ -90,16 +94,16 @@
             // 
             // RevitServerMonitorForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(716, 243);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.ClientSize = new System.Drawing.Size(777, 277);
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblCommunicating);
-            this.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.Margin = new System.Windows.Forms.Padding(10, 8, 10, 8);
             this.Name = "RevitServerMonitorForm";
             this.Text = "Rod Howarth\'s Revit Server Monitor";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
